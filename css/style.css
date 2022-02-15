@@ -15,3 +15,13 @@ header li{
     float: right;
     margin: 0 15px;
 }
+
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    display: inline;
+}
