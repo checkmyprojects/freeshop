@@ -8,13 +8,24 @@ header div{
     /* formato del h1 */
     text-align: center;
 }
-header div + div*{
+header h1{
+    background-color: rgba(253, 239, 244, 0.5);
+    font-style: bold;
+    font-size: 40px;
+}
+/* header div + div*{
     display: inline;
+} */
+header > div + div{
+    background-color: rgba(253, 239, 244, 0.5);
 }
 header li{
     display: inline;
     float: right;
     margin: 0 15px;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 20px;
 }
 .product-slide{
     background-color: #FDEFF4;
