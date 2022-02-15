@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    flex-direction: column;
+}
+header div{
+    /* imagen de fondo */
+    /* formato del h1 */
+    text-align: center;
+}
+header div + div*{
+    display: inline;
+}
+header li{
+    display: inline;
+    float: right;
+    margin: 0 15px;
+}
