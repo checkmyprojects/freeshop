@@ -1,1 +1,1 @@
-E-commerce soy quique
+E-commerce (tienda online)
