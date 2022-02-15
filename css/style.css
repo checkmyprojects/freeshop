@@ -16,12 +16,26 @@ header li{
     float: right;
     margin: 0 15px;
 }
-
-
+.product-slide{
+    background-color: #FDEFF4;
+    /* temporal height */
+    height: 400px;
+}
+.product-featured{
+    background-color: #FFC0D3;
+    /* temporal height */
+    height: 400px;
+}
+.product-new{
+    background-color: #FDEFF4;
+    /* temporal height */
+    height: 400px;
+}
 /* footer */
 footer{
     display: flex;
     justify-content: center;
+    background-color: #FF5C8D;
 
 }
 footer li{
