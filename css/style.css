@@ -7,6 +7,7 @@ header{
     display: flex;
     flex-direction: column;
     background-image: url(../img/header-logo.jpg);
+    background-size: 100% auto;
 }
 header div{
     /* imagen de fondo */
@@ -18,9 +19,6 @@ header h1{
     font-style: bold;
     font-size: 40px;
 }
-/* header div + div*{
-    display: inline;
-} */
 header > div + div{
     background-color: rgba(253, 239, 244, 0.5);
 }
@@ -52,7 +50,6 @@ footer{
     display: flex;
     justify-content: center;
     background-color: #FF5C8D;
-
 }
 footer li{
     display: inline;
