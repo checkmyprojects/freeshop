@@ -1,6 +1,7 @@
 header{
     display: flex;
     flex-direction: column;
+    background-image: url(../img/header-logo.jpg);
 }
 header div{
     /* imagen de fondo */
@@ -21,6 +22,7 @@ header li{
 footer{
     display: flex;
     justify-content: center;
+
 }
 footer li{
     display: inline;
