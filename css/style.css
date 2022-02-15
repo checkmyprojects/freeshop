@@ -1,3 +1,8 @@
+/* background color for all pages */
+body{
+    background-color: #FDEFF4;
+}
+/* header basic color and layout */
 header{
     display: flex;
     flex-direction: column;
