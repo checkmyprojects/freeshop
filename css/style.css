@@ -36,22 +36,16 @@ header li{
     height: 400px;
 }
 .product-featured{
+    padding: 50px 0;
     background-color: #FFC0D3;
-    /* temporal height */
-    height: 400px;
-}
-.product-featured{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
-.product-single{
+/* .product-single{
     display: flex;
     flex-direction: column;
-}
-.product-single-desc{
-    display: flex;
-    flex-direction: column;
-}
+} */
 
 .product-new{
     background-color: #FDEFF4;
