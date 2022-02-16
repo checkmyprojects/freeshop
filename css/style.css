@@ -55,11 +55,12 @@ header li{
 /* footer */
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: #FF5C8D;
 }
 footer li{
-    display: inline;
+    /* display: inline; */
+    list-style-type: none;
 }
 /* floating whatsapp */
 .float{
