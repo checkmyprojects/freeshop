@@ -40,6 +40,19 @@ header li{
     /* temporal height */
     height: 400px;
 }
+.product-featured{
+    display: flex;
+    flex-direction: row;
+}
+.product-single{
+    display: flex;
+    flex-direction: column;
+}
+.product-single-desc{
+    display: flex;
+    flex-direction: column;
+}
+
 .product-new{
     background-color: #FDEFF4;
     /* temporal height */
