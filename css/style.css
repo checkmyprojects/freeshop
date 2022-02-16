@@ -1,6 +1,7 @@
 /* background color for all pages */
 body{
     background-color: #FDEFF4;
+    font-family: 'Roboto', sans-serif;
 }
 /* header basic color and layout */
 header{
@@ -33,7 +34,17 @@ header li{
 .product-slide{
     background-color: #FDEFF4;
     /* temporal height */
-    height: 400px;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.product-slide *{
+    /* text-align: center; */
+}
+.product-single > img{
+    border-radius: 20%;
 }
 .product-featured{
     padding: 50px 0;
@@ -48,15 +59,20 @@ header li{
 } */
 
 .product-new{
+    padding: 50px 0;
     background-color: #FDEFF4;
     /* temporal height */
-    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 /* footer */
 footer{
     display: flex;
     justify-content: flex-start;
     background-color: #FF5C8D;
+    color: #FDEFF4;
+    font-weight: bold;
 }
 footer li{
     /* display: inline; */
