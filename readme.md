@@ -7,18 +7,18 @@ E-commerce Store realizado por el equipo **FreeShop**.
 
 * The digitization of companies has become an essential concept to transform a business and adapt it to new trends, which is why it is very common today to find customers who need an online store or e-commerce.*
 
-Para provocar un mayor impacto, queremos hacer un cambio de imagen de empresa, para ello necesitaremos todo de 0. Logo, nombre de empresa, paleta de colores.
+> Para provocar un mayor impacto, queremos hacer un cambio de imagen de empresa, para ello necesitaremos todo de 0. Logo, nombre de empresa, paleta de colores.
 * To cause a greater impact, we want to make a change of company image, for this we will need everything from 0. Logo, company name, color palette.*
 
 ## Objetivos 🚀
 
-Durante la segunda semana seguiremos en el mundo del desarrollo web, mezclaremos varios temas, herramientas y metodologías para seguir aprendiendo. 
-Aplicaremos la metodología ágil Scrum y Kanban. 
-Crear historias de usuario, backlog, estimar el tiempo y peso de cada tarea, como también asignar las tareas a los desarrolladores
-Utilizar **flex** y **grid**
-Responsive design
-Crear una funcionalidad JavaScript
-Buenas prácticas: marcado semántico *(las etiquetas de HTML sirven para algo),* y **dividir CSS en componentes atómicos
+-Durante la segunda semana seguiremos en el mundo del desarrollo web, mezclaremos varios temas, herramientas y metodologías para seguir aprendiendo. 
+    - Aplicaremos la metodología ágil Scrum y Kanban. 
+    - Crear historias de usuario, backlog, estimar el tiempo y peso de cada tarea, como también asignar las tareas a los desarrolladores-
+    - Utilizar **flex** y **grid**
+    - Responsive design
+    - Crear una funcionalidad JavaScript
+    - Buenas prácticas: marcado semántico *(las etiquetas de HTML sirven para algo),* y **dividir CSS en componentes atómicos
 ## 💪 Challenge
 - Consumir la API de whatsapp
     - Mandar los datos de compra al whatsapp
@@ -31,7 +31,7 @@ Buenas prácticas: marcado semántico *(las etiquetas de HTML sirven para algo),
 
 ### Instalación 🚀
 
-- clonar el repositorio: https://github.com/checkmyprojects/freeshop.git
+- Clonar el repositorio: https://github.com/checkmyprojects/freeshop.git
 
 Mira Deployment para conocer como desplegar el proyecto.
 
