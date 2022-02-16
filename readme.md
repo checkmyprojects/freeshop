@@ -1,4 +1,4 @@
-Candy Shop
+## Candy Shop 🍭	
 
 E-commerce Store realizado por el equipo FreeShop. - E-commerce store made by the freeshop team.
 
@@ -8,7 +8,7 @@ The digitization of companies has become an essential concept to transform a bus
 Para provocar un mayor impacto, queremos hacer un cambio de imagen de empresa, para ello necesitaremos todo de 0. Logo, nombre de empresa, paleta de colores.
 To cause a greater impact, we want to make a change of company image, for this we will need everything from 0. Logo, company name, color palette.
 
-Objetivos 🚀
+## Objetivos 🚀
 
 Durante la segunda semana seguiremos en el mundo del desarrollo web, mezclaremos varios temas, herramientas y metodologías para seguir aprendiendo. 
 Aplicaremos la metodología ágil Scrum y Kanban. 
@@ -21,29 +21,29 @@ Buenas prácticas: marcado semántico *(las etiquetas de HTML sirven para algo),
 - Consumir la API de whatsapp
     - Mandar los datos de compra al whatsapp
 
-Briefing Candy-Shop 📖
+## Briefing Candy-Shop 📖
 
 Somos una empresa que se dedica a la producción de chucherías, hemos nacido en el año 1984 y desde entonces no hemos visto la necesidad de crear una página Web porque la empresa ha sido muy famosa desde entonces. Con la crisis sanitaria COVID-19 nos hemos visto en la obligación de crear nuestra página Web.
 We are a company dedicated to the production of candy, we were born in 1984 and since then we have not seen the need to create a website because the company has been very famous ever since. With the COVID-19 health crisis we have been forced to create our website.
 
-Instalación 🚀
+### Instalación 🚀
 
 clonar el repositorio: https://github.com/checkmyprojects/freeshop.git
 
 Mira Deployment para conocer como desplegar el proyecto.
 
-Pre-requisitos 📋
+### Pre-requisitos 📋
 
 Necesitas tener instalado un navegador web para poder visualizar la página.
 Si deseas ver el código con cualquier editor de texto puedes visualizarlo.
 
-Épicas ⚙️
+## Épicas ⚙️
 
 Home page (Featured products, Latest products, Exclusive product, Testimonials)
 Products page and contact page
 Cart page
 
-Tecnologías usadas 📋
+### Tecnologías usadas 📋
 
 HTML
 CSS
@@ -53,18 +53,12 @@ Responsive
 Wireframe
 Trello (Historias de usuarios)
 
-Construido con 🛠️
+### Construido con 🛠️
 
 Visual Studio Code - Editor de código
 GitHub - Sistema de control de versiones
 Pixabay - Banco de imagenes
-
-
-Versionado 📌
-
-Usamos SemVer para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
-
-Autores ✒️
+## Autores ✒️
 
 El equipo de FreeShop somos:
 
@@ -79,12 +73,11 @@ El equipo de FreeShop somos:
 - Beatriz Robledillo Gómez - https://github.com/BeitxuelaWEB
 
 También puedes mirar la lista de todos los contribuyentes quíenes han participado en este proyecto.
-
-Licencia 📄
+## Licencia 📄
 
 Este proyecto está bajo Licencia libre. Open source.
 
-Expresiones de Gratitud 🎁
+## Expresiones de Gratitud 🎁 💲
 
 Invita a una cerveza 🍺 o un café ☕ a todos del equipo.
 Da gracias al equipo.
