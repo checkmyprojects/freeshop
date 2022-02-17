@@ -157,8 +157,7 @@ footer li img{
     .product-featured{
         flex-direction: column;
     }
-    .product-new-main{
-        /* flex-direction: column; */
+    /* .product-new-main{
         display: none;
-    }
+    } */
 }
