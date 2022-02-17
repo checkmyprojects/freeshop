@@ -48,9 +48,6 @@ header > div + div{
     align-items: center;
     text-align: center;
 }
-.product-slide *{
-    /* text-align: center; */
-}
 .product-single > img{
     border-radius: 20%;
 }
@@ -77,6 +74,25 @@ header > div + div{
     background-color: #524A4E;
     color: #FDEFF4;
     margin-bottom: 10px;
+}
+.button-buy{
+    /* background-color: #FF5C8D; */
+    color: #FDEFF4;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 20%;
+    color: #FDEFF4;
+    text-transform: uppercase;
+    border: 2px solid #524A4E;
+    /* background: rgb(255,92,141);
+    background: linear-gradient(90deg, rgba(255,92,141,1) 0%, rgba(253,239,244,1) 65%, rgba(0,212,255,1) 100%); */
+    /* background: rgb(255,92,141);
+    background: radial-gradient(circle, rgba(255,92,141,1) 0%, rgba(0,212,255,0.7371323529411764) 74%, rgba(0,212,255,1) 100%); */
+    background: rgb(255,92,141);
+
 }
 .product-new{
     padding: 50px 0;
