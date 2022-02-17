@@ -16,13 +16,32 @@ header div{
     /* formato del h1 */
     text-align: center;
 }
-header h1{
-    background-color: rgba(253, 239, 244, 0.5);
+h1{
+    /* background-color: rgba(253, 239, 244, 0.5); */
     font-style: bold;
+    color: #FF5C8D;
     font-size: 50px;
 }
 header > div + div{
     background-color: rgba(253, 239, 244, 0.5);
+}
+.nav{
+    margin: 0;
+}
+.nav ul{
+    background-color: #524A4E;
+    color: #FDEFF4;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+.nav ul a{
+    background-color: #524A4E;
+    color: #FDEFF4;
+}
+.nav li{
+    display: inline;
+    margin: 0 10px;
 }
 /* header li{
     display: inline;
