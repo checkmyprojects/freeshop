@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/proudctA.css" />
     <link rel="stylesheet" href="css/producto01.css" />
-    
+    <script src="script/script.js"></script>
     <title>FreeShop</title>
   </head>
   <body>
@@ -15,21 +15,31 @@
       <!-- div para el logo con nombre de la web con una imagen de fondo -->
       <div>
         <!-- imagen de fondo -->
-        <h1>Candy Shop</h1>
+        <img class="logocandy" src="img/logo2.png" alt="LOGO" />
+        <!-- <h1>Candy Shop</h1> -->
       </div>
       <!-- zona para el buscador, login, carrito -->
       <div class="menu">
         <!-- <ul>
-                <li><a href=""><img src="img/cart-shopping-solid.svg" alt=""></a></li>
-                <li>login</li>
-                <li><form action=""><input type="text">search</form></li>
-            </ul> -->
+              <li><a href=""><img src="img/cart-shopping-solid.svg" alt=""></a></li>
+              <li>login</li>
+              <li><form action=""><input type="text">search</form></li>
+          </ul> -->
+        <p id="demo"></p>
         <img src="img/cart-shopping-solid.svg" alt="" />
         <img src="img/iniciar-sesion.png" alt="" />
         <form action="">
           <input type="text" /><img src="img/icon-search.png" alt="" />
         </form>
       </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="#">Destacados</a></li>
+          <li><a href="#">Ofertas</a></li>
+        </ul>
+      </nav>
     </header>
     <!--el producto individual-->
     <main>
@@ -48,8 +58,8 @@
             <br />
             *Habla con nosotros para los precios de mayoristas.
           </p>
-         <!--Boton de comprar--> 
-          <div class="button-buy">
+          <!--Boton de comprar-->
+          <div class="button-buy" onclick="myFunction()">
             <span>comprar</span>
           </div>
         </div>
@@ -59,7 +69,7 @@
                 <img src="img/botoncomprar.png" alt="Comprar">
             </button>-->
     </main>
-   <!--Contacto--> 
+    <!--Contacto-->
     <footer>
       <!-- whatsapp -->
       <link
