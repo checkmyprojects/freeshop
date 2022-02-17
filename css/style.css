@@ -23,13 +23,21 @@ header h1{
 header > div + div{
     background-color: rgba(253, 239, 244, 0.5);
 }
-header li{
+/* header li{
     display: inline;
     float: right;
     margin: 0 15px;
     font-weight: bold;
     line-height: 40px;
     font-size: 20px;
+} */
+.menu *{
+    float: right;
+    height: 25px;
+    /* margin: 0px 10px; */
+}
+.menu form{
+    height: 32px;
 }
 .product-slide{
     background-color: #FDEFF4;
@@ -57,7 +65,19 @@ header li{
     display: flex;
     flex-direction: column;
 } */
-
+.center{
+    text-align: center;
+    background-color: #524A4E;
+    color: #FDEFF4;
+    line-height: 30px;
+    margin: 0;
+}
+.bg-dark{
+    text-align: center;
+    background-color: #524A4E;
+    color: #FDEFF4;
+    margin-bottom: 10px;
+}
 .product-new{
     padding: 50px 0;
     background-color: #FDEFF4;
@@ -89,9 +109,9 @@ footer li{
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-  font-size:30px;
+    font-size:30px;
 	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+    z-index:100;
 }
 .my-float{
 	margin-top:16px;
@@ -99,3 +119,11 @@ footer li{
 /* floating whatsapp end */
 
 /*Media queries*/
+@media screen and (max-width: 700px) {
+    .product-featured{
+        flex-direction: column;
+    }
+    .product-new{
+        flex-direction: column;
+    }
+}
