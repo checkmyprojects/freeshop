@@ -3,3 +3,13 @@
     align-items: center;
     justify-content: center;
 }
+/*Media queries*/
+@media screen and (max-width: 599px) {
+    .producto{
+        flex-direction: column;
+    }  
+    .producto > img{
+        width: 90% ;
+        height: 90%;
+    }
+}
