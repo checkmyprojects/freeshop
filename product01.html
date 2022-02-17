@@ -10,21 +10,25 @@
 
 </head>
 <body>
-        <header>
-            <!-- div para el logo con nombre de la web con una imagend e fondo -->
-            <div>
-                <!-- imagen de fondo -->
-                <h1>Candy Shop</h1>
-            </div>
-            <!-- zona para el buscador, login, carrito -->
-            <div>
-                <ul>
-                    <li>carrito</li>
-                    <li>login</li>
-                    <li><form action=""><input type="text">search</form></li>
-                </ul>
-            </div>
-        </header>
+    <header>
+        <!-- div para el logo con nombre de la web con una imagend e fondo -->
+        <div>
+            <!-- imagen de fondo -->
+            <h1>Candy Shop</h1>
+        </div>
+        <!-- zona para el buscador, login, carrito -->
+        <div class="menu">
+            <!-- <ul>
+                <li><a href=""><img src="img/cart-shopping-solid.svg" alt=""></a></li>
+                <li>login</li>
+                <li><form action=""><input type="text">search</form></li>
+            </ul> -->
+            <img src="img/cart-shopping-solid.svg" alt="">
+            <img src="img/iniciar-sesion.png" alt="">
+            <form action=""><input type="text"><img src="img/iniciar-sesion.png" alt=""></form>
+        </div>
+    </header>
+        <!--el producto individual-->
         <main>
             <img src="img/producto-01.jpg"alt = Producto-01">
             <article>
@@ -35,7 +39,11 @@
                  <p>Precio: 15€</p>
                     </p>
             </article>
-            <button></button>
+            <!--Botón de comprar-->
+            <button name="Comprar">
+                <img src="img/botoncomprar.png" alt="Comprar">
+            </button>
+            
         </main>
         <footer>
             <!-- whatsapp -->
