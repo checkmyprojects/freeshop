@@ -2,6 +2,7 @@
 body{
     background-color: #FDEFF4;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 /* header basic color and layout */
 header{
@@ -16,12 +17,12 @@ header div{
     text-align: center;
 }
 header h1{
-    background-color: rgba(253, 239, 244, 0.5);
+    /* background-color: rgba(253, 239, 244, 0.5); */
     font-style: bold;
-    font-size: 40px;
+    font-size: 50px;
 }
 header > div + div{
-    background-color: rgba(253, 239, 244, 0.5);
+    /* background-color: rgba(253, 239, 244, 0.5); */
 }
 /* header li{
     display: inline;
@@ -35,12 +36,14 @@ header > div + div{
     float: right;
     height: 25px;
     /* margin: 0px 10px; */
+    margin: 0 2px;
 }
 .menu form{
     height: 32px;
 }
 .product-slide{
-    background-color: #FDEFF4;
+    /* background-color: #FDEFF4; */
+    background-color: #FFC0D3;
     /* temporal height */
     /* height: 400px; */
     display: flex;
@@ -48,12 +51,19 @@ header > div + div{
     align-items: center;
     text-align: center;
 }
+.product-slide img{
+    height: 80%;
+    width: 80%;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
 .product-single > img{
     border-radius: 20%;
 }
 .product-featured{
     padding: 50px 0;
-    background-color: #FFC0D3;
+    /* background-color: #FFC0D3; */
+    background-color: #FDEFF4;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -110,9 +120,17 @@ footer{
     color: #FDEFF4;
     font-weight: bold;
 }
+footer *{
+    /* text-decoration: none; */
+    color: #FDEFF4;
+}
 footer li{
     /* display: inline; */
     list-style-type: none;
+}
+footer li img{
+    height: 15px;
+    width: 15px;
 }
 /* floating whatsapp */
 .float{
@@ -139,7 +157,8 @@ footer li{
     .product-featured{
         flex-direction: column;
     }
-    .product-new{
-        flex-direction: column;
+    .product-new-main{
+        /* flex-direction: column; */
+        display: none;
     }
 }
