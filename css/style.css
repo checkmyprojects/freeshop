@@ -173,6 +173,12 @@ footer li img{
 .my-float{
 	margin-top:16px;
 }
+
+.span-comprar:hover{
+    background-color: #FDEFF4 ;
+    color: #FF5C8D ;
+    cursor:pointer;
+}
 /* floating whatsapp end */
 
 /*Media queries*/
@@ -194,4 +200,10 @@ footer li img{
     width: 20px;
     color: black;
     font-weight: bold;
+}
+
+.span-comprar:hover{
+    background-color: #FDEFF4 ;
+    color: #FF5C8D ;
+    cursor:pointer;
 }

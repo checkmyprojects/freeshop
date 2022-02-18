@@ -127,6 +127,12 @@ header > div + div{
     background: rgb(255,92,141);
 
 }
+
+.span-comprar:hover{
+    background-color: #FDEFF4 ;
+    color: #FF5C8D ;
+    cursor:pointer;
+}
 .product-new{
     padding: 50px 0;
     background-color: #FDEFF4;
@@ -194,4 +200,10 @@ footer li img{
     width: 20px;
     color: black;
     font-weight: bold;
+}
+
+.span-comprar:hover{
+    background-color: #FDEFF4 ;
+    color: #FF5C8D ;
+    cursor:pointer;
 }

@@ -25,6 +25,12 @@
   width: 150px;
   flex-direction: column;
 }
+
+.span-comprar:hover{
+  background-color: #FDEFF4 ;
+  color: #FF5C8D ;
+  cursor:pointer;
+}
 /*Media queries*/
 @media screen and (max-width: 599px) {
   .producto {
@@ -37,4 +43,10 @@
     width: 80%;
     height: 80%;
   }
+
+  .span-comprar:hover{
+    background-color: #FDEFF4 ;
+    color: #FF5C8D ;
+    cursor:pointer;
+}
 }
