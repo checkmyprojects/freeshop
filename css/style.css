@@ -76,6 +76,9 @@ header > div + div{
     border-radius: 10%;
     margin-bottom: 10px;
 }
+.product-slide p{
+    width: 80%;
+}
 .product-single > img{
     border-radius: 20%;
     flex-basis: 100%;
