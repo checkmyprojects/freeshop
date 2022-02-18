@@ -1,0 +1,197 @@
+/* background color for all pages */
+body{
+    background-color: #FDEFF4;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+/* header basic color and layout */
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/header-logo.jpg);
+    background-size: 100% auto;
+}
+header div{
+    /* imagen de fondo */
+    /* formato del h1 */
+    text-align: center;
+}
+h1{
+    /* background-color: rgba(253, 239, 244, 0.5); */
+    font-style: bold;
+    color: #FF5C8D;
+    font-size: 50px;
+}
+header > div + div{
+    background-color: rgba(253, 239, 244, 0.5);
+}
+.nav{
+    margin: 0;
+}
+.nav ul{
+    background-color: #524A4E;
+    color: #FDEFF4;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+.nav ul a{
+    background-color: #524A4E;
+    color: #FDEFF4;
+}
+.nav li{
+    display: inline;
+    margin: 0 10px;
+}
+/* header li{
+    display: inline;
+    float: right;
+    margin: 0 15px;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 20px;
+} */
+.menu *{
+    float: right;
+    height: 25px;
+    /* margin: 0px 10px; */
+    margin: 0 2px;
+}
+.menu form{
+    height: 32px;
+}
+.product-slide{
+    /* background-color: #FDEFF4; */
+    background-color: #FFC0D3;
+    /* temporal height */
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.product-slide img{
+    height: 80%;
+    width: 80%;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+.product-single > img{
+    border-radius: 20%;
+    flex-basis: 100%;
+    flex-grow: 0;
+}
+.product-featured{
+    padding: 50px 0;
+    /* background-color: #FFC0D3; */
+    background-color: #FDEFF4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.product-single{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    text-align: center;
+    background-color: #524A4E;
+    color: #FDEFF4;
+    line-height: 30px;
+    margin: 0;
+}
+.bg-dark{
+    text-align: center;
+    background-color: #524A4E;
+    color: #FDEFF4;
+    margin-bottom: 10px;
+    /* width: 160px; */
+}
+.button-buy{
+    /* background-color: #FF5C8D; */
+    color: #FDEFF4;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 20%;
+    color: #FDEFF4;
+    text-transform: uppercase;
+    border: 2gitpx solid #524A4E;
+    /* background: rgb(255,92,141);
+    background: linear-gradient(90deg, rgba(255,92,141,1) 0%, rgba(253,239,244,1) 65%, rgba(0,212,255,1) 100%); */
+    /* background: rgb(255,92,141);
+    background: radial-gradient(circle, rgba(255,92,141,1) 0%, rgba(0,212,255,0.7371323529411764) 74%, rgba(0,212,255,1) 100%); */
+    background: rgb(255,92,141);
+
+}
+.product-new{
+    padding: 50px 0;
+    background-color: #FDEFF4;
+    /* temporal height */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #FF5C8D;
+    color: #FDEFF4;
+    font-weight: bold;
+}
+footer *{
+    /* text-decoration: none; */
+    color: #FDEFF4;
+}
+footer li{
+    /* display: inline; */
+    list-style-type: none;
+}
+footer li img{
+    height: 15px;
+    width: 15px;
+}
+/* floating whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.my-float{
+	margin-top:16px;
+}
+/* floating whatsapp end */
+
+/*Media queries*/
+@media screen and (max-width: 700px) {
+    .product-featured{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logocandy{
+        height: auto;
+        width: 100px;
+    }
+    /* .product-new-main{
+        display: none;
+    } */
+}
+#demo{
+    /* background-color: white; */
+    width: 20px;
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<script src="script/script.js"></script>
+    <title>FreeShop</title>
+</head>
+<body>
+    <header>
+        <!-- div para el logo con nombre de la web con una imagen de fondo -->
+        <div>
+            <!-- imagen de fondo -->
+            <img class="logocandy" src="img/logo2.png" alt="LOGO">
+            <!-- <h1>Candy Shop</h1> -->
+        </div>
+        <!-- zona para el buscador, login, carrito -->
+        <div class="menu">
+            <!-- <ul>
+                <li><a href=""><img src="img/cart-shopping-solid.svg" alt=""></a></li>
+                <li>login</li>
+                <li><form action=""><input type="text">search</form></li>
+            </ul> -->
+            <p id="demo"></p>
+            <img src="img/cart-shopping-solid.svg" alt="">
+            <img src="img/iniciar-sesion.png" alt="">
+            <form action=""><input type="text"><img src="img/icon-search.png" alt=""></form>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#">Destacados</a></li>
+                <li><a href="#">Ofertas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- slide de productos -->
+        <section class="product-slide">
+        <!-- productos rebajados o destacados -->
+            <h1>Nuestros Productos</h1>
+            <p>Somos una empresa que se dedica a la producción de chucherías, hemos nacido en el año 1984</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati placeat voluptate voluptas quam ab ullam, sunt quod molestias facilis aliquam similique libero iusto. Ducimus ad distinctio fugit tenetur dicta nemo.</p>
+            <img src="img/shop-inside.jpg" alt="Shop">
+        </section>
+        <section>
+            
+            <section class="product-featured">
+                <!-- divs para procutos individuales -->
+                <!--  -->
+                <div class="product-single">
+                    <a href="product01.html" ><img src="img/producto-01.jpg" alt="Producto Chocolate de San Jorge"></a>
+                    <div class="bg-dark">
+                        <span>Chocolate de Sant Jordi</span>
+                        <span>15€</span>
+                    </div>
+                    <div class="button-buy" onclick="myFunction()">
+                        <span>comprar</span>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <a href="product01.html" onclick="cambiarImagen('img/producto-02.jpg')" value= "img/producto-02.jpg"><img src="img/producto-02.jpg" alt="Producto Piruleta"></a>
+                    <div class="bg-dark">
+                        <span>Piruleta</span>
+                        <span>18€</span>
+                    </div>
+                    <div class="button-buy" onclick="myFunction()">
+                        <span>comprar</span>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <a href="product01.html"><img src="img/producto-03.jpg" alt="Producto Caramelos de café"></a>
+                    <div class="bg-dark">
+                        <span>Caramelo de café</span>
+                        <span>11€</span>
+                    </div>
+                    <div class="button-buy" onclick="myFunction()">
+                        <span>comprar</span>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section>
+            
+            <section class="product-featured">
+                <!-- divs para procutos individuales -->
+                <!--  -->
+                <div class="product-single">
+                    <a href="product01.html"><img src="img/producto-04.jpg" alt="Producto Piruletas de calavera"></a>
+                    <div class="bg-dark">
+                        <span>Piruletas de calavera</span>
+                        <span>15€</span>
+                    </div>
+                    <div class="button-buy" onclick="myFunction()">
+                        <span>comprar</span>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <a href="product01.html"><img src="img/producto-05.jpg" alt="Producto Gominolas"></a>
+                    <div class="bg-dark">
+                        <span>Gominolas</span>
+                        <span>18€</span>
+                    </div>
+                    <div class="button-buy" onclick="myFunction()">
+                        <span>comprar</span>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <a href="product01.html"><img src="img/producto-06.jpg" alt=" Producto Sugus"></a>
+                    <div class="bg-dark">
+                        <span>Sugus</span>
+                        <span>11€</span>
+                    </div>                    <div class="button-buy" onclick="myFunction()">
+                        <span>comprar</span>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- productos nuevos -->
+        <!-- BORRAR -->
+        <!-- <section class="product-new-main">
+            <h2 class="center">Chuches Rebajadas</h2>
+            <section class="product-new">
+                <div class="product-single">
+                    <img src="img/producto-01.jpg" alt="Producto 1">
+                    <div class="bg-dark">
+                        <span>Nombre</span>
+                        <span>Precio</span>
+                    </div>                    <div class="button-buy">
+                        <span>comprar</span>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <img src="img/producto-01.jpg" alt="Producto 1">
+                    <div class="bg-dark">
+                        <span>Nombre</span>
+                        <span>Precio</span>
+                    </div>
+                    <div class="button-buy">
+                        <span>comprar</span>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <img src="img/producto-01.jpg" alt="Producto 1">
+                    <div class="bg-dark">
+                        <span>Nombre</span>
+                        <span>Precio</span>
+                    </div>
+                    <div class="button-buy">
+                        <span>comprar</span>
+                    </div>
+                </div>
+            </section>
+        </section> -->
+    </main>
+    <footer>
+        <!-- whatsapp -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=12025550144&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20las%20chuches." class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i></a>
+        <!-- whatsapp end -->
+        <ul>
+            <li><img src="img/icon-telef.png" alt="Phone"> +1-202-555-0144</li>
+            <li><img src="img/icon-address.png" alt="Phone"> 35 169th Drive NE, Arlington,wa, 98223  United States</li>
+            <li><img src="img/icon-email.png" alt="Phone"><a href="mailto:vagisoy201@plexfirm.com"> vagisoy201@plexfirm.com</a></li>
+        </ul>
+        <!-- mapa -->
+    </footer>
+</body>
+</html>
