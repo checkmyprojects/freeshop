@@ -21,6 +21,7 @@ h1{
     font-style: bold;
     color: #FF5C8D;
     font-size: 50px;
+    text-shadow: 2px 2px #524A4E;
 }
 header > div + div{
     background-color: rgba(253, 239, 244, 0.5);

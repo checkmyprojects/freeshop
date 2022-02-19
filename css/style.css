@@ -21,6 +21,7 @@ h1{
     font-style: bold;
     color: #FF5C8D;
     font-size: 50px;
+    text-shadow: 2px 2px #524A4E;
 }
 header > div + div{
     background-color: rgba(253, 239, 244, 0.5);
@@ -43,14 +44,6 @@ header > div + div{
     display: inline;
     margin: 0 10px;
 }
-/* header li{
-    display: inline;
-    float: right;
-    margin: 0 15px;
-    font-weight: bold;
-    line-height: 40px;
-    font-size: 20px;
-} */
 .menu *{
     float: right;
     height: 25px;
@@ -78,6 +71,9 @@ header > div + div{
 }
 .product-slide p{
     width: 80%;
+}
+.product-slide p + p{
+    font-size: 24px;
 }
 .product-single > img{
     border-radius: 20%;
@@ -123,10 +119,6 @@ header > div + div{
     color: #FDEFF4;
     text-transform: uppercase;
     border: 2gitpx solid #524A4E;
-    /* background: rgb(255,92,141);
-    background: linear-gradient(90deg, rgba(255,92,141,1) 0%, rgba(253,239,244,1) 65%, rgba(0,212,255,1) 100%); */
-    /* background: rgb(255,92,141);
-    background: radial-gradient(circle, rgba(255,92,141,1) 0%, rgba(0,212,255,0.7371323529411764) 74%, rgba(0,212,255,1) 100%); */
     background: rgb(255,92,141);
 
 }
@@ -194,9 +186,6 @@ footer li img{
         height: auto;
         width: 100px;
     }
-    /* .product-new-main{
-        display: none;
-    } */
 }
 #demo{
     /* background-color: white; */

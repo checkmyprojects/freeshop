@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: 20px;
 }
 /*texto del producto*/
 .texto-producto {
@@ -20,7 +21,7 @@
   border-radius: 20%;
   color: #fdeff4;
   text-transform: uppercase;
-  border: 2px solid #524a4e;
+  /* border: 2px solid #524a4e; */
   background: rgb(255, 92, 141);
   width: 150px;
   flex-direction: column;
