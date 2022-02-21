@@ -10,15 +10,26 @@ E-commerce Store realizado por el equipo **FreeShop**.
 > Para provocar un mayor impacto, queremos hacer un cambio de imagen de empresa, para ello necesitaremos todo de 0. Logo, nombre de empresa, paleta de colores.
 * To cause a greater impact, we want to make a change of company image, for this we will need everything from 0. Logo, company name, color palette.*
 
+![logo](img/logo2.png)
+
 ## Objetivos 🚀
 
--Durante la segunda semana seguiremos en el mundo del desarrollo web, mezclaremos varios temas, herramientas y metodologías para seguir aprendiendo. 
-    - Aplicaremos la metodología ágil Scrum y Kanban. 
-    - Crear historias de usuario, backlog, estimar el tiempo y peso de cada tarea, como también asignar las tareas a los desarrolladores-
+-Durante la segunda semana seguiremos en el mundo del desarrollo web, mezclaremos varios temas, herramientas y metodologías para seguir aprendiendo.
+ 
+    - Aplicaremos la metodología ágil Scrum y Kanban.
+    
+    - Crear historias de usuario, backlog, estimar el tiempo y peso de cada tarea, como también asignar las tareas a los desarrolladores
+    
     - Utilizar **flex** y **grid**
+    
     - Responsive design
+    
     - Crear una funcionalidad JavaScript
+    
     - Buenas prácticas: marcado semántico *(las etiquetas de HTML sirven para algo),* y **dividir CSS en componentes atómicos
+    
+   
+    
 ## 💪 Challenge
 - Consumir la API de whatsapp
     - Mandar los datos de compra al whatsapp
@@ -34,6 +45,8 @@ E-commerce Store realizado por el equipo **FreeShop**.
 - Clonar el repositorio: https://github.com/checkmyprojects/freeshop.git
 
 Mira Deployment para conocer como desplegar el proyecto.
+
+
 
 ### Pre-requisitos 📋
 
