@@ -34,6 +34,9 @@ E-commerce Store realizado por el equipo **FreeShop**.
 - Consumir la API de whatsapp
     - Mandar los datos de compra al whatsapp
 
+![wasap](img/Photoshop_2022-02-17_22-06-46.png)
+
+
 ## Briefing Candy-Shop 📖
 
 > Somos una empresa que se dedica a la producción de chucherías, hemos nacido en el año 1984 y desde entonces no hemos visto la necesidad de crear una página Web porque la empresa ha sido muy famosa desde entonces. Con la crisis sanitaria COVID-19 nos hemos visto en la obligación de crear nuestra página Web.
