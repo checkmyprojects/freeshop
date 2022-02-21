@@ -78,6 +78,9 @@ Si deseas ver el código con cualquier editor de texto puedes visualizarlo.
 - Visual Studio Code - Editor de código
 - GitHub - Sistema de control de versiones
 - Pixabay - Banco de imagenes
+
+![logo](img/chrome_2022-02-19_12-26-10.png)
+
 ## Autores ✒️
 
 El equipo de FreeShop somos:
